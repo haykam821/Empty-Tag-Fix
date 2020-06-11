@@ -1,0 +1,23 @@
+{
+	"schemaVersion": 1,
+	"id": "emptytagfix",
+	"version": "${version}",
+	"name": "Empty Tag Fix",
+	"description": "Fixes an issue with loading multiple empty tags in Minecraft 1.16 pre-release 3.",
+	"authors": [
+		"haykam821"
+	],
+	"contact": {
+		"homepage": "https://github.com/haykam821/Empty-Tag-Fix#readme",
+		"issues": "https://github.com/haykam821/Empty-Tag-Fix/issues"
+	},
+	"mixins": [
+		"emptytagfix.mixin.json"
+	],
+	"accessWidener": "emptytagfix.accesswidener",
+	"license": "MIT",
+	"icon": "assets/emptytagfix/icon.png",
+	"depends": {
+		"fabricloader": ">=0.8.0"
+	}
+}

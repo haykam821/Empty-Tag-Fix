@@ -1,0 +1,11 @@
+{
+	"required": true,
+	"package": "io.github.haykam821.emptytagfix.mixin",
+	"compatibilityLevel": "JAVA_8",
+	"mixins": [
+		"Class5394Mixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
